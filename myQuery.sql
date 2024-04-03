@@ -27,4 +27,5 @@ use test
 -- SET price = 10 , stock_count = 9
 -- WHERE id = 2;
 
-GRANT ON books TO "martin"@"localhost";
+GRANT SELECT, UPDATE ON books TO "martin"@"localhost";
+REVOKE DELETE ON books TO "martin"@"localhost";
