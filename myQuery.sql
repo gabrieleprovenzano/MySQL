@@ -25,4 +25,4 @@ use test
 
 UPDATE books
 SET price = 10 , stock_count = 9
-WHERE id = 2;
+WHERE title = "War and Peace";
